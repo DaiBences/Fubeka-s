@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_lista { 
+    padding: 2vw 3vw;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cardapio_titulo {
+    text-align: center;
+    padding: 3vh;
+    font-size: 2rem;
+    border: 1px solid black;
+}
+
+.pizza {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.pizza_img {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer_texto { 
+    margin: 1rem 0;
+}
